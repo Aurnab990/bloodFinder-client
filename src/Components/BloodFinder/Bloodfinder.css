@@ -1,0 +1,61 @@
+/* Add these styles for the search part */
+
+.search-wrapper {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-wrapper label {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .search-wrapper input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Update the styles for the table */
+  .table-wrapper {
+    overflow-x: auto;
+    margin: 20px;
+  }
+  
+  .fl-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .fl-table th, .fl-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .fl-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .fl-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .action-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

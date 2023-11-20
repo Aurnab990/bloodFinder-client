@@ -1,0 +1,52 @@
+
+.logo-container{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff5555; /* Red */
+}
+
+/* Navbar Container */
+.nav-container {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px;
+    cursor: pointer;
+  }
+  
+  /* Navbar Links */
+  .nav-container a {
+    text-decoration: none;
+    color: #fff; /* White */
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .nav-container a:hover {
+    color: #937f81; /* Magenta */
+  }
+  
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .nav-container a {
+      margin: 10px 0;
+    }
+  }
+  

@@ -1,0 +1,41 @@
+
+.slider-container {
+    
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    height: 20%;
+    margin: auto;
+  }
+  
+  
+  .slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider-image {
+    
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  

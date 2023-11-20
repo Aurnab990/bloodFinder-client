@@ -1,0 +1,44 @@
+/* img{
+    margin-left: 0px;
+    height: 600px;
+    width: 1300px;
+} */
+/* Header Container */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+  }
+  
+  /* Button Container */
+  .button-container {
+    margin-left: 80px;
+  }
+
+  .button-container button {
+    border: 2px solid #333; /* Add a border with a 2px width and gray color */
+    height: 80px;
+    width: 250px;
+    padding: 10px 20px; /* Adjust padding to make the button bigger */
+    font-size: 24px; /* Increase font size for bigger text */
+    background-color: rgb(223, 57, 71); /* Add a background color for the button */
+    color: #fff; /* Text color for the button */
+    border-radius: 10px; /* Add rounded corners for the button */
+    margin: 10px; /* Add some spacing around the buttons */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+  }
+  .button-container button:hover{
+    color: black;
+    background-color: #fff;
+  }
+  .header-text{
+    font-size: 50px;
+    font-weight: 200;
+  }
+  /* Image Styles */
+  .header-image {
+    
+    height: 530px;
+    width: 900px;
+  }
+  
